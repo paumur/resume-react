@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
-import Hr from './Hr';
-import './Default.css';
+import Hr from './../Hr/Hr';
+import '../Default.css';
 
 export const AboutMe = () => (
   <section className='about-me'>

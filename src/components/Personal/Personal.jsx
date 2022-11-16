@@ -1,5 +1,5 @@
 import React from 'react';
-import Hr from './Hr';
+import Hr from './../Hr/Hr';
 import './Personal.css';
 
 const Personal = () => (

@@ -1,9 +1,4 @@
-.links {
-  flex: 1;
-  order: 1;
-}
-
-.links__card {
+.link__card {
   min-width: 300px;
   display: flex;
   align-items: center;
@@ -11,7 +6,7 @@
   margin-bottom: 8px;
 }
 
-.links__card a {
+.link__card a {
   text-decoration: none;
   color: #000;
 }

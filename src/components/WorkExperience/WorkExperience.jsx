@@ -1,6 +1,6 @@
 import React from 'react';
 import './WorkExperience.css';
-import Hr from './Hr';
+import Hr from './../Hr/Hr';
 
 export const WorkExperience = () => (
   <section className='work-experience'>

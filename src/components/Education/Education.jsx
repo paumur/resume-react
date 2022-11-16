@@ -1,5 +1,5 @@
 import React from 'react';
-import Hr from './Hr';
+import Hr from './../Hr/Hr';
 
 const Education = () => (
   <section className='education'>
