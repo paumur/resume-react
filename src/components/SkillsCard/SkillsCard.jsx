@@ -1,22 +1,26 @@
 import React from 'react';
 import Hr from '../Hr/Hr';
 import PropTypes from 'prop-types';
+import Pill from '../Pill/Pill';
+import { uid } from 'uid';
 
-const Skills = (props) => {
+const Skills = ({ title, pillTypes }) => {
   return (
-    <section className='technical'>
-      <h3>technical skills</h3>
+    <section className='skillCard'>
+      <h3>{title}</h3>
       <Hr />
-      <div className='skillCard'>
-        <div className='beginner-level'>HTML</div>
-        <div className='beginner-level'>CSS/SCSS</div>
-        <div className='intermediate-level'>JAVASCRIPT</div>
-        <div className='intermediate-level'>REACT.JS</div>
+      <div>
+        {pillTypes.map((pill) => (
+          <Pill type={pill.type} children={pill.children} key={uid()} />
+        ))}
       </div>
     </section>
   );
 };
 
-Skills.propTypes = {};
+Skills.propTypes = {
+  title: PropTypes.string.isRequired,
+  pillTypes: PropTypes.array,
+};
 
 export default Skills;

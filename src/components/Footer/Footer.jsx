@@ -1,39 +1,32 @@
 import React from 'react';
+import FooterCard from '../FooterCard/FooterCard';
 import './Footer.css';
 
 const Footer = () => (
   <footer className='footer-container'>
-    <div className='footer-card'>
-      <div className='footer-card__header'>LOCATION</div>
-      <div>
-        <p>Imaginary St. 52,</p>
-      </div>
-      <div>
-        <p>Vilnius, Narnia</p>
-      </div>
-    </div>
-    <div className='footer-card'>
-      <div className='footer-card__header'>CONTACT</div>
-      <div>
-        <a href='tel:+37060000333'>+37060000333</a>
-      </div>
-      <div>
-        <a href='mailto: abc@example.com'>email@test.dev</a>
-      </div>
-    </div>
-    <div className='footer-card'>
-      <div className='footer-card__header'>SOCIAL</div>
-      <div>
+    <FooterCard
+      title='LOCATION'
+      first_field={<p>Imaginary St. 52,</p>}
+      second_field={<p>Vilnius, Narnia</p>}
+    />
+    <FooterCard
+      title='CONTACT'
+      first_field={<a href='tel:+37060000333'>+37060000333</a>}
+      second_field={<a href='mailto: abc@example.com'>email@test.dev</a>}
+    />
+    <FooterCard
+      title='SOCIAL'
+      first_field={
         <a target='_blank' rel='noreferrer' href='https://linkedin.com/'>
           Linkedin/username
         </a>
-      </div>
-      <div>
+      }
+      second_field={
         <a target='_blank' rel='noreferrer' href='https://twitter.com/'>
           email@test.dev
         </a>
-      </div>
-    </div>
+      }
+    />
   </footer>
 );
 
