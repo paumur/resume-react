@@ -1,0 +1,8 @@
+.about-me {
+  flex: 2;
+  order: 2;
+}
+
+.about-me p {
+  font-size: 16px;
+}

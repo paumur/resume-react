@@ -1,0 +1,41 @@
+.personal {
+  min-width: 289px;
+}
+
+.technical {
+  min-width: 289px;
+}
+
+/* .section-personalskills-buttons,
+.section-technicalskills-buttons {
+  color: #000;
+  font-weight: 700;
+  display: block;
+  pointer-events: none;
+  border: none;
+  border-radius: 11px;
+  margin-top: 30px;
+} */
+
+.beginner-level {
+  background: #7abcac;
+}
+.intermediate-level {
+  background: #d8da79;
+}
+.advanced-level {
+  background: #c29486;
+}
+
+.beginner-level,
+.intermediate-level,
+.advanced-level {
+  display: inline-block;
+  margin-right: 100%;
+  line-height: 19px;
+  font-size: 16px;
+  border-radius: 11px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+  font-weight: 600;
+}

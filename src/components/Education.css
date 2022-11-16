@@ -1,0 +1,16 @@
+.education {
+  min-width: 289px;
+}
+
+.education p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.education p:first-of-type {
+  font-weight: 600;
+}
+
+.education__content {
+  margin-top: 27px;
+}
