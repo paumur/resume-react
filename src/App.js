@@ -1,7 +1,7 @@
 import Header from './components/Header/Header';
 import './App.css';
 import AboutMe from './components/AboutMe/AboutMe';
-import Links from './components/Links';
+import Links from './components/Links/Links';
 import { WorkExperience } from './components/WorkExperience/WorkExperience';
 import Footer from './components/Footer/Footer';
 import Education from './components/Education/Education';

@@ -1,8 +1,8 @@
 import React from 'react';
-import Hr from './Hr/Hr';
+import Hr from '../Hr/Hr';
 // import '../Default.css';
 import './Links.css';
-import Link from './Link';
+import Link from '../Link/Link';
 import linksData from '../data/linksData';
 import { uid } from 'uid';
 
